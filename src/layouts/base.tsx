@@ -51,32 +51,13 @@ export default function BaseLayout() {
             <MoonIcon className="swap-on" size={22} />
           </label>
           <a
-            href="https://github.com/lencx/gpthub"
+            href="https://twitter.com/siom_C"
             target="_blank"
             rel="noopener noreferrer"
             className="flex w-[28px] h-[28px]"
             title="GitHub"
           >
             <GitHubIcon size={28} />
-          </a>
-          <a
-            href="https://chat.openai.com/g/g-e2bIguMqf-findgpt"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block w-[26px] h-[26px] border border-slate-300 rounded-full"
-            title="FindGPT by lencx"
-          >
-            <img
-              alt="FindGPT"
-              className="select-none rounded-full w-[26px]" src="/findgpt.png"
-              onClick={() => navigate('/')}
-            />
-          </a>
-          <a href="https://www.producthunt.com/posts/gpthub?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-gpthub" target="_blank">
-            <img
-              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=424710&theme=light" alt="GPTHub | Product Hunt"
-              className="w-[140px]"
-            />
           </a>
         </div>
       </header>
